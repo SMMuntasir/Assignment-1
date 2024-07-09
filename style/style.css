@@ -61,6 +61,7 @@ body{
     border: none;
 }
 .why-web{
+    border-radius: 10px;
     padding-bottom: 40px;
     margin: 60px 120px;
     background-color: #fafafb;
@@ -133,4 +134,16 @@ body{
 }
 .inspiration p{
     margin: 0px 150px;
+}
+#footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:rgba(13, 19, 33, 0.03) ;
+    gap: 300px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+#footer img{
+    margin-right: 10px;
 }
