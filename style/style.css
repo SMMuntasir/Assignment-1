@@ -105,3 +105,32 @@ body{
     padding: 7px 15px;
     font-weight: bolder;
 }
+.inspiration{
+    margin: 70px 140px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.frame{
+    margin-top: 30px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 10px;
+    width: 800px;
+    height: 450px;
+    padding: 20px;
+}
+.inspiration iframe{
+    width: 800px;
+    height: 450px;
+    border-radius: 10px;
+}
+.text{
+    font-size: 13px;
+    color: #0D1321;
+    opacity: 70%;
+}
+.inspiration p{
+    margin: 0px 150px;
+}
