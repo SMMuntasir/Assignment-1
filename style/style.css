@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    /* font-weight: <weight>; */
+    font-style: normal;
+}
+/* .azeret-mono-<uniquifier> {
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  } */
+
+.foot-div{
+    /* width: 100%;
+    height: 100%; */
+    padding: 20px 200px;
+    background-image: url("/assets/Hero-bg.png");
+    background-size:contain;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.foot-awlad{
+    display: flex;
+    justify-content: center;
+    gap: 700px;
+    margin: 25px 100px;
+}
+.foot-awlad button{
+    color:#0D1321;
+    font-size: 20;
+    font-weight: bolder;
+    /* height: 30px;
+    width: 200px; */
+    background-color: white;
+    padding: 17px 24px;
+    border-radius: 8px;
+}
+.foot-awlad p{
+    color: #0D1321;
+    font-weight: 800;
+}
+.foot-div img{
+    width: 200px;
+    height: 200px;
+}
+.foot-div h1{
+    font-weight:800;
+}
+.foot-div button{
+    padding: 15px 17px;
+    border-radius: 8px;
+    background-color: #0D1321;
+    color: #FFFFFF;
+    border: none;
+}
+.why-web{
+    padding-bottom: 40px;
+    margin: 60px 120px;
+    background-color: #fafafb;
+    /* text-align: center; */
+}
+.why-web-sub{
+    text-align: center;
+    padding: 60px 144px 10px;
+    /* margin: 60px 144px 10px; */
+}
+.why-web-chi{
+    border-radius: 16px;
+    margin: 10px 70px;
+    padding: 30px;
+    background-color: #FFFFFF;
+}
+.why-web-chi-1{
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    background-image:url("assets/Layer_1.png") ;
+    display: flex;
+}
+.why-web-chi-2{
+    background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    display: flex;
+}
+.why-web-chi-3{
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    display: flex;
+}
+.why-web-chi h3{
+    font-weight: bold;
+}
