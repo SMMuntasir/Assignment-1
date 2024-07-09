@@ -81,15 +81,27 @@ body{
     background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
     background-image:url("assets/Layer_1.png") ;
     display: flex;
+    gap: 70px;
 }
 .why-web-chi-2{
     background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
     display: flex;
+    gap: 22px;
 }
 .why-web-chi-3{
     background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
     display: flex;
+    gap: 80px;
 }
 .why-web-chi h3{
     font-weight: bold;
+}
+.why-web-chi button{
+    opacity: 70%;
+    color: #0D1321;
+    /* border-color: #0D1321; */
+    border-width: 1px;
+    background-color: #FFFFFF;
+    padding: 7px 15px;
+    font-weight: bolder;
 }
