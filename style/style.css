@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-body{
+body,.font{
     font-family: "Azeret Mono", monospace;
     font-optical-sizing: auto;
     /* font-weight: <weight>; */
@@ -173,6 +173,63 @@ body{
     border-radius: 10px;
     padding: 30px;
 }
+.cur-tar-chi a{
+    /* text-decoration: none; */
+    color: #0D1321;
+    font-weight: bold;
+}
 .cur-tar .align{
     text-align: center;
+}
+.need-sup{
+    background-image: url("/assets/handshake.jpg");
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    background-position: center ;
+    /* text-align: center; */
+    margin: 70px 120px;
+    /* width: 800px;
+    height: 250px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 14px;
+    /* padding: 50px 30px; */
+
+}
+.need-sup h2,p{
+    color: #FFFFFF;
+}
+.color{
+    padding: 50px 150px;
+    border-radius: 14px;
+    background-color:rgba(0, 0, 0, 0.446);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.color div{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.color input{
+    border: none;
+    height: 30px;
+    width: 400px;
+    border-radius: 7px;
+    padding: 5px 0px 5px 10px;
+    /* height: 20px; */
+}
+.color button{
+    border: none;
+    font-size:15px;
+    font-weight: 700;
+    background-color: #FFFFFF;
+    height: 40px;
+    width: 80px;
+    border-radius: 7px;
+    /* padding: 5px 0px 0px 0px; */
 }
