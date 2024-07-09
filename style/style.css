@@ -17,7 +17,7 @@ body,.font{
     /* width: 100%;
     height: 100%; */
     padding: 20px 200px;
-    background-image: url("assets/Hero-bg.png");
+    background-image: url('/assets/Hero-bg.png');
     background-size:contain;
     height: 500px;
     display: flex;
@@ -182,7 +182,7 @@ body,.font{
     text-align: center;
 }
 .need-sup{
-    background-image: url("assets/handshake.jpg");
+    background-image: url('/assets/handshake.jpg');
     background-size: cover;
     /* background-repeat: no-repeat; */
     background-position: center ;
