@@ -107,7 +107,7 @@ body,.font{
     font-weight: bolder;
 }
 .inspiration{
-    margin: 70px 140px;
+    margin: 70px 120px;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -115,15 +115,19 @@ body,.font{
     align-items: center;
 }
 .frame{
-    margin-top: 30px;
+    /* width: 1050px;
+    height: 450px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 120px;
     border: 1px solid rgba(13, 19, 33, 0.2);
     border-radius: 10px;
-    width: 800px;
-    height: 450px;
+    
     padding: 20px;
 }
 .inspiration iframe{
-    width: 800px;
+    width: 950px;
     height: 450px;
     border-radius: 10px;
 }
