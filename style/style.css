@@ -147,3 +147,32 @@ body{
 #footer img{
     margin-right: 10px;
 }
+.cur-tar{
+    margin: 120px 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+}
+.cur-tar-sub{
+    display: flex;
+    gap: 20px;
+    border-radius: 10px;
+}
+.cur-tar-chi-1{
+    background-color: rgba(255, 76, 30, 0.05);
+}
+.cur-tar-chi-2{
+    background-color: rgba(0, 76, 232, 0.05) ;
+}
+.cur-tar-chi-3{
+    background-color: rgba(255, 223, 0, 0.05);
+}
+.cur-tar-chi{
+    border-radius: 10px;
+    padding: 30px;
+}
+.cur-tar .align{
+    text-align: center;
+}
