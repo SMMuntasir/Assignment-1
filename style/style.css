@@ -6,6 +6,9 @@ body,.font{
     /* font-weight: <weight>; */
     font-style: normal;
 }
+body h2{
+    font-weight: 900;
+}
 /* .azeret-mono-<uniquifier> {
     font-family: "Azeret Mono", monospace;
     font-optical-sizing: auto;
@@ -54,6 +57,7 @@ body,.font{
     font-weight:800;
 }
 .foot-div button{
+    margin-top: 18px;
     padding: 15px 17px;
     border-radius: 8px;
     background-color: #0D1321;
@@ -71,6 +75,10 @@ body,.font{
     text-align: center;
     padding: 60px 144px 10px;
     /* margin: 60px 144px 10px; */
+}
+.why-web-chi h3{
+    font-weight: bold;
+    opacity: 70%;
 }
 .why-web-chi{
     border-radius: 16px;
@@ -96,15 +104,17 @@ body,.font{
 }
 .why-web-chi h3{
     font-weight: bold;
+    margin-bottom: 16px;
 }
 .why-web-chi button{
-    opacity: 70%;
+    margin-top: 16px;
+    opacity: 60%;
     color: #0D1321;
     /* border-color: #0D1321; */
     border-width: 1px;
     background-color: #FFFFFF;
-    padding: 7px 15px;
-    font-weight: bolder;
+    padding: 7px 17px;
+    font-weight: 800;
 }
 .inspiration{
     margin: 70px 120px;
@@ -140,6 +150,7 @@ body,.font{
     margin: 0px 150px;
 }
 #footer{
+    font-weight: 600;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -160,6 +171,7 @@ body,.font{
     /* text-align: center; */
 }
 .cur-tar-sub{
+    margin-top: 30px;
     display: flex;
     gap: 20px;
     border-radius: 10px;
@@ -177,16 +189,48 @@ body,.font{
     border-radius: 10px;
     padding: 30px;
 }
-.cur-tar-chi a{
+.cur-tar-chi a,.nex-tar-chi a{
     /* text-decoration: none; */
     color: #0D1321;
     font-weight: bold;
+    font-size: 14px;
 }
 .cur-tar .align{
     text-align: center;
 }
+.nex-tar{
+    margin: 0px 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.nex-tar-chi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    border: 1px solid rgba(120, 126, 140, 0.2);
+    border-radius: 12px;
+    padding: 32px;
+    margin-bottom: 18px;
+}
+.nex-tar-chi h3{
+    font-weight: 900;
+}
+.nex-tar-chi img{
+    width: 90px;
+    height: 80px;
+}
+.nex-tar-chi-2 img{
+    width: 120px;
+}
+.nex-tar-p{
+    text-align: center;
+    margin-bottom: 40px;
+} 
 .need-sup{
-    background-image: url("../assets/handshake.jpg");
+    background-image:linear-gradient(0.00deg, rgba(16, 16, 16, 0.5) 50%,rgba(16, 16, 16, 0.5) 50%),url("../assets/handshake.jpg");
     background-size: cover;
     /* background-repeat: no-repeat; */
     background-position: center ;
@@ -199,28 +243,31 @@ body,.font{
     justify-content: center;
     align-items: center;
     border-radius: 14px;
-    /* padding: 50px 30px; */
+    padding: 40px 150px 50px;
 
 }
 .need-sup h2{
     color: #FFFFFF;
+    font-weight: bold;
 }
 .need-sup p{
     color: #FFFFFF;
+    text-align: center;
 }
-.color{
-    padding: 50px 150px;
+/* .color{
+    padding: 40px 150px 50px;
     border-radius: 14px;
     background-color:rgba(0, 0, 0, 0.446);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
+} */
 .color div{
     display: flex;
     align-items: center;
     gap: 12px;
+    margin-top: 15px;
 }
 .color input{
     border: none;
@@ -229,6 +276,9 @@ body,.font{
     border-radius: 7px;
     padding: 5px 0px 5px 10px;
     /* height: 20px; */
+}
+.color input[placeholder]{
+    
 }
 .color button{
     border: none;
