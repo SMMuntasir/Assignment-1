@@ -3,22 +3,13 @@
 body,.font{
     font-family: "Azeret Mono", monospace;
     font-optical-sizing: auto;
-    /* font-weight: <weight>; */
     font-style: normal;
+    font-weight: 500;
 }
 body h2{
     font-weight: 900;
 }
-/* .azeret-mono-<uniquifier> {
-    font-family: "Azeret Mono", monospace;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
-  } */
-
 .foot-div{
-    /* width: 100%;
-    height: 100%; */
     padding: 20px 200px;
     background-image: url("../assets/Hero-bg.png");
     background-size:contain;
@@ -39,8 +30,6 @@ body h2{
     color:#0D1321;
     font-size: 20;
     font-weight: bolder;
-    /* height: 30px;
-    width: 200px; */
     background-color: white;
     padding: 17px 24px;
     border-radius: 8px;
@@ -54,11 +43,13 @@ body h2{
     height: 200px;
 }
 .foot-div h1{
+    font-size: 35px;
     font-weight:800;
 }
 .foot-div button{
+    font-size: 15px;
     margin-top: 18px;
-    padding: 15px 17px;
+    padding: 17px 23px;
     border-radius: 8px;
     background-color: #0D1321;
     color: #FFFFFF;
@@ -69,12 +60,10 @@ body h2{
     padding-bottom: 40px;
     margin: 60px 120px;
     background-color: #fafafb;
-    /* text-align: center; */
 }
 .why-web-sub{
     text-align: center;
     padding: 60px 144px 10px;
-    /* margin: 60px 144px 10px; */
 }
 .why-web-chi h3{
     font-weight: bold;
@@ -88,7 +77,6 @@ body h2{
 }
 .why-web-chi-1{
     background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
-    /* background-image:url("assets/Layer_1.png") ; */
     display: flex;
     gap: 70px;
 }
@@ -110,7 +98,6 @@ body h2{
     margin-top: 16px;
     opacity: 60%;
     color: #0D1321;
-    /* border-color: #0D1321; */
     border-width: 1px;
     background-color: #FFFFFF;
     padding: 7px 17px;
@@ -125,8 +112,6 @@ body h2{
     align-items: center;
 }
 .frame{
-    /* width: 1050px;
-    height: 450px; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -145,12 +130,14 @@ body h2{
     font-size: 13px;
     color: #0D1321;
     opacity: 70%;
+    line-height: 1.5;
 }
 .inspiration p{
     margin: 0px 150px;
 }
 #footer{
-    font-weight: 600;
+    color: #0d1321da;
+    font-weight: 700;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -168,7 +155,6 @@ body h2{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* text-align: center; */
 }
 .cur-tar-sub{
     margin-top: 30px;
@@ -190,7 +176,6 @@ body h2{
     padding: 30px;
 }
 .cur-tar-chi a,.nex-tar-chi a{
-    /* text-decoration: none; */
     color: #0D1321;
     font-weight: bold;
     font-size: 14px;
@@ -212,7 +197,7 @@ body h2{
     gap: 18px;
     border: 1px solid rgba(120, 126, 140, 0.2);
     border-radius: 12px;
-    padding: 32px;
+    padding: 25px;
     margin-bottom: 18px;
 }
 .nex-tar-chi h3{
@@ -232,12 +217,8 @@ body h2{
 .need-sup{
     background-image:linear-gradient(0.00deg, rgba(16, 16, 16, 0.5) 50%,rgba(16, 16, 16, 0.5) 50%),url("../assets/handshake.jpg");
     background-size: cover;
-    /* background-repeat: no-repeat; */
     background-position: center ;
-    /* text-align: center; */
     margin: 70px 120px;
-    /* width: 800px;
-    height: 250px; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -254,15 +235,6 @@ body h2{
     color: #FFFFFF;
     text-align: center;
 }
-/* .color{
-    padding: 40px 150px 50px;
-    border-radius: 14px;
-    background-color:rgba(0, 0, 0, 0.446);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-} */
 .color div{
     display: flex;
     align-items: center;
@@ -275,10 +247,9 @@ body h2{
     width: 400px;
     border-radius: 7px;
     padding: 5px 0px 5px 10px;
-    /* height: 20px; */
 }
-.color input[placeholder]{
-    
+.color input::placeholder{
+    opacity: 70%;
 }
 .color button{
     border: none;
@@ -288,5 +259,4 @@ body h2{
     height: 40px;
     width: 80px;
     border-radius: 7px;
-    /* padding: 5px 0px 0px 0px; */
 }
